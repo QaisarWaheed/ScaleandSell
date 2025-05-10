@@ -16,6 +16,8 @@ export default {
         "Login-text": " #000000D9",
         "Home-logout": "#FFFFFF",
         "Home-Borders": "#0000000B",
+        primary: "#16A34A",
+        secondary: "#7A717A",
       },
     },
 
