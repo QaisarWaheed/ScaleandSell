@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="px-[2rem] py-[1rem] flex justify-between items-center border-b">
+    <nav className="sticky top-0 max-w-[1400px] mx-auto left-0 px-[2rem] py-[1rem] flex justify-between items-center border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="flex gap-8 items-center">
         <h1 className="font-bold text-primary text-[1.25rem]">StartupMarket</h1>
         <ul className="flex gap-6 hover:">
