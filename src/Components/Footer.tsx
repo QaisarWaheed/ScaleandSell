@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full border-t bg-background py-6 px-10">
+    <footer className="w-full max-w-[1400px] mx-auto border-t bg-background py-6 px-10">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8">
         <div className="flex flex-col items-center md:items-start gap-2">
           <a href="/" className="flex items-center space-x-2">
