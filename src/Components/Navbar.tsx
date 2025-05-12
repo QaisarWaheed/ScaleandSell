@@ -7,8 +7,12 @@ const Navbar = () => {
       <div className="flex gap-8 items-center">
         <h1 className="font-bold text-primary text-[1.25rem]">StartupMarket</h1>
         <ul className="flex gap-6 hover:">
-          <li className="text-secondary text-sm font-medium">Home</li>
-          <li className="text-secondary text-sm font-medium">Listings</li>
+          <li className="text-secondary text-sm font-medium">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="text-secondary text-sm font-medium">
+            <Link to="/listings">Listings</Link>
+          </li>
           <li className="text-secondary text-sm font-medium">How It Works</li>
           <li className="text-secondary text-sm font-medium">About</li>
         </ul>

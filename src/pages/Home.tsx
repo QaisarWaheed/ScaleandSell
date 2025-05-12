@@ -4,22 +4,22 @@ import Navbar from "../Components/Navbar";
 const Home = () => {
   return (
     <div className="flex flex-col items-center">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-green-50 to-white dark:from-green-950 dark:to-background">
-        <div className="px-4 md:px-6">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-green-50 to-white">
+        <div className="max-w-[1400px] mx-auto px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                   Pakistan's Premier Startup Marketplace
                 </h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-500 md:text-xl">
                   Connect with investors, sell your business, or find your next
                   opportunity in Pakistan's growing startup ecosystem.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <a href="/auth/register">
-                  <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-11 rounded-md px-8 bg-green-600 hover:bg-green-700">
+                  <button className="inline-flex items-center text-white justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-11 rounded-md px-8 bg-green-600 hover:bg-green-700">
                     Get Started
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const Home = () => {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Platform Features
               </h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Everything you need to buy, sell, or invest in Pakistani
                 startups
               </p>
@@ -103,7 +103,7 @@ const Home = () => {
                 </h3>
               </div>
               <div className="p-6 pt-0">
-                <p className="text-sm text-gray-500 dark:text-gray-400">
+                <p className="text-sm text-gray-500">
                   Create detailed listings for your business with financial
                   data, growth metrics, and more.
                 </p>
@@ -137,7 +137,7 @@ const Home = () => {
                 </h3>
               </div>
               <div className="p-6 pt-0">
-                <p className="text-sm text-gray-500 dark:text-gray-400">
+                <p className="text-sm text-gray-500">
                   Our simulated escrow system ensures safe and transparent
                   transactions between parties.
                 </p>
@@ -168,7 +168,7 @@ const Home = () => {
                 </h3>
               </div>
               <div className="p-6 pt-0">
-                <p className="text-sm text-gray-500 dark:text-gray-400">
+                <p className="text-sm text-gray-500">
                   Generate and sign legal agreements directly on the platform
                   with secure digital signatures.
                 </p>
@@ -201,7 +201,7 @@ const Home = () => {
                 </h3>
               </div>
               <div className="p-6 pt-0">
-                <p className="text-sm text-gray-500 dark:text-gray-400">
+                <p className="text-sm text-gray-500">
                   Track listing performance, visitor statistics, and investor
                   interest in real-time.
                 </p>
@@ -210,21 +210,21 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-green-50 dark:bg-green-950">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-green-50">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Ready to Get Started?
               </h2>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Join Pakistan's growing community of entrepreneurs and investors
                 today.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <a href="/auth/register">
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-11 rounded-md px-8 bg-green-600 hover:bg-green-700">
+                <button className="inline-flex text-white items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-11 rounded-md px-8 bg-green-600 hover:bg-green-700">
                   Register Now
                 </button>
               </a>
